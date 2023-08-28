@@ -573,6 +573,10 @@ video {
   margin-right: auto;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .flex {
   display: flex;
 }
@@ -583,6 +587,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -682,6 +690,10 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:flex-nowrap {
+    flex-wrap: nowrap;
   }
 
   .md\:px-14 {
