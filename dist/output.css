@@ -1005,6 +1005,10 @@ video {
     flex-wrap: wrap;
   }
 
+  .lg\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
   .lg\:justify-start {
     justify-content: flex-start;
   }
