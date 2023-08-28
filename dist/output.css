@@ -606,6 +606,14 @@ video {
   margin-top: 16rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -650,6 +658,10 @@ video {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -660,6 +672,10 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .space-x-12 > :not([hidden]) ~ :not([hidden]) {
@@ -674,6 +690,10 @@ video {
   margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.self-center {
+  align-self: center;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -684,11 +704,6 @@ video {
 
 .border {
   border-width: 1px;
-}
-
-.border-gray-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
 .border-purple-300 {
@@ -748,14 +763,14 @@ video {
   font-family: Poppins, sans-serif;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-7xl {
@@ -763,9 +778,19 @@ video {
   line-height: 1;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -779,11 +804,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-yellow-200 {
-  --tw-text-opacity: 1;
-  color: rgb(254 240 138 / var(--tw-text-opacity));
 }
 
 .text-yellow-300 {
@@ -825,6 +845,17 @@ video {
   max-width: 48rem;
   --tw-text-opacity: 1;
   color: rgb(145 145 164 / var(--tw-text-opacity));
+}
+
+.badge {
+  --tw-bg-opacity: 1;
+  background-color: rgb(61 63 81 / var(--tw-bg-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .hover\:bg-purple-600:hover {
@@ -903,12 +934,20 @@ video {
     margin-left: 5rem;
   }
 
+  .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .lg\:h-72 {
     height: 18rem;
   }
 
   .lg\:w-3\/6 {
     width: 50%;
+  }
+
+  .lg\:w-auto {
+    width: auto;
   }
 
   .lg\:grid-cols-3 {
