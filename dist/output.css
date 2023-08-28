@@ -597,6 +597,10 @@ video {
   margin-top: 3rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -613,12 +617,20 @@ video {
   width: 83.333333%;
 }
 
+.max-w-xl {
+  max-width: 36rem;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -692,6 +704,16 @@ video {
   line-height: 1;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -749,6 +771,10 @@ video {
 
   .md\:flex-nowrap {
     flex-wrap: nowrap;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
   }
 
   .md\:px-14 {
