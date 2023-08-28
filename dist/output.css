@@ -581,24 +581,24 @@ video {
   margin-right: auto;
 }
 
-.mt-16 {
-  margin-top: 4rem;
+.mr-1 {
+  margin-right: 0.25rem;
 }
 
 .mt-10 {
   margin-top: 2.5rem;
 }
 
-.mr-1 {
-  margin-right: 0.25rem;
-}
-
 .mt-12 {
   margin-top: 3rem;
 }
 
-.block {
-  display: block;
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-64 {
+  margin-top: 16rem;
 }
 
 .flex {
@@ -609,12 +609,12 @@ video {
   display: none;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-10\/12 {
   width: 83.333333%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-xl {
@@ -641,10 +641,6 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(3rem * var(--tw-space-x-reverse));
   margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .rounded-lg {
@@ -676,14 +672,14 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .text-center {
@@ -694,23 +690,13 @@ video {
   font-family: Poppins, sans-serif;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -731,6 +717,32 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.secondary-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+.secondary-title::before {
+  content: "";
+  margin-bottom: 0.25rem;
+  display: block;
+  height: 0.5rem;
+  width: 3rem;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(92 49 140 / var(--tw-bg-opacity));
+}
+
+.section-paragraph {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 48rem;
+  --tw-text-opacity: 1;
+  color: rgb(145 145 164 / var(--tw-text-opacity));
 }
 
 .hover\:bg-purple-600:hover {
@@ -793,12 +805,12 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:top-2 {
-    top: 0.5rem;
-  }
-
   .lg\:right-52 {
     right: 13rem;
+  }
+
+  .lg\:top-2 {
+    top: 0.5rem;
   }
 
   .lg\:ml-20 {
